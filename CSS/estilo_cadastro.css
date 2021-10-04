@@ -4,13 +4,13 @@ body {
 }
 
 .externa{
-    background-image: url("tibiafundologin.jpg");
+    background-image: url("cadastrofundo.jpg");
     background-size: cover;
     height:100%;
 }
 
 .interna{
-    background-image: url("DRACOINS.png");
+    background-image: url("drac.png");
     background-size:100%;
     border-radius: px 10px 10px 10px;
     height: 500px;
@@ -21,8 +21,8 @@ body {
 
 .inputscadastro{
     position: absolute;
-    top: 35%;
-    width: 31%;
+    top: 18%;
+    width: 35%;
     text-align: center;
     font-size: 18px;
 }
@@ -35,8 +35,8 @@ body {
 
 .buttonscadastro{
     position: absolute;
-    top:64%;
-    width: 31%;
+    top:75%;
+    width: 35%;
     text-align: center;
     font-size: 18px;
 }
