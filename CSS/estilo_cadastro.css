@@ -1,0 +1,46 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.externa{
+    background-image: url("tibiafundologin.jpg");
+    background-size: cover;
+    height:100%;
+}
+
+.interna{
+    background-image: url("DRACOINS.png");
+    background-size:100%;
+    border-radius: px 10px 10px 10px;
+    height: 500px;
+    width: 500px;
+    margin: 0 auto;
+    padding: 2%;
+}
+
+.inputscadastro{
+    position: absolute;
+    top: 35%;
+    width: 31%;
+    text-align: center;
+    font-size: 18px;
+}
+
+.estilocadastro{
+    size: 20px;
+    border: 2px solid #132743;
+    border-radius: 8px;
+}
+
+.buttonscadastro{
+    position: absolute;
+    top:64%;
+    width: 31%;
+    text-align: center;
+    font-size: 18px;
+}
+
+.estilobuttons{
+    border :2px solid #132743;
+}
