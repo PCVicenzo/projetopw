@@ -12,7 +12,6 @@ body {
 .interna{
     background-image: url("DRACOINS.png");
     background-size:100%;
-    border-radius: px 10px 10px 10px;
     height: 500px;
     width: 500px;
     margin: 0 auto;
@@ -20,9 +19,8 @@ body {
 }
 
 .inputslogin{
-    position: absolute;
-    top: 35%;
-    width: 31%;
+    position: relative;
+    top:45%;
     text-align: center;
     font-size: 18px;
 }
@@ -33,14 +31,16 @@ body {
     border-radius: 8px;
 }
 
-.buttonslogin{
-    position: absolute;
-    top:64%;
-    width: 31%;
-    text-align: center;
-    font-size: 18px;
+.estilobuttons{
+    background-color: #dfd3c3;
+    position:relative;
+    top: 60%;
+    left: 25%;
+    border :2px solid #132743;
+    cursor: pointer;
 }
 
-.estilobuttons{
-    border :2px solid #132743;
+.estilobuttons:hover{
+    background-color: #d3d6db;
 }
+
