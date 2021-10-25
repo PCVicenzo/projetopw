@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.externa{
+    background-image: url("telaprincipal.jfif");
+    background-repeat: repeat;
+    height:500%;
+}
+
+.interna{
+    background-color: white;
+    border-radius: 0px 0px 32px 32px;
+    height: 100%;
+    width: 1300px;
+    margin: 0 auto;
+}
+
+.slogan{
+    background-color:lemonchiffon;
+    font-family: Arial;
+    padding-top: 96px;
+    padding-bottom: 64px;
+    text-align: center;
+    font-size: 32px;
+}
+
+.botoesmenu > button{
+    border-radius: 24px;
+    width: 112px;
+    height: 48px;
+    cursor: pointer;
+}
+
+.estiloinput{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 600px;
+    height:40px;
+}
+
+.icones{
+    cursor: pointer;
+}
