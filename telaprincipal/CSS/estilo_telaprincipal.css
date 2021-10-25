@@ -18,6 +18,7 @@ body{
 }
 
 .slogan{
+    margin: 0;
     background-color:lemonchiffon;
     font-family: Arial;
     padding-top: 96px;
@@ -31,17 +32,59 @@ body{
     width: 112px;
     height: 48px;
     cursor: pointer;
+    background-color: #d3d6db;
+}
+
+#maisprodutos:hover{
+    background-color: #9ba6a5;
+}
+
+#cadastro:hover{
+    background-color: #9ba6a5;
 }
 
 .estiloinput{
     display: flex;
-    flex-direction:row;
     align-items: center;
+    border-radius: 8px;
     justify-content: space-evenly;
-    width: 600px;
+    width: 630px;
     height:40px;
 }
 
 .icones{
     cursor: pointer;
+}
+
+.lupa{
+    border-radius: 8px;
+    width:40px;
+    height:40px;
+    background-image: url("lupa.svg");
+}
+
+.lupa:hover{
+    background-color: #d3d6db;
+}
+
+.cativamensagem{
+    border-radius: 56px;
+    margin: 16px;
+    padding: 8px;
+    background-color:orange;
+    font-family: Arial;
+    text-align: center;
+    font-size: 32px;
+}
+
+.botaocadastro{
+    background-color: #d3d6db;
+    width: 280px;
+    height: 120px;
+    border-radius: 200px;
+    margin-left: 500px;
+}
+
+.botaocadastro:hover{
+    background-color: #9ba6a5;
 }
