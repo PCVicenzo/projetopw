@@ -21,25 +21,21 @@ body{
     margin: 0;
     background-color:lemonchiffon;
     font-family: Arial;
-    padding-top: 96px;
+    padding-top: 64px;
     padding-bottom: 64px;
     text-align: center;
     font-size: 32px;
 }
 
-.botoesmenu > button{
+.botoesmenu{
     border-radius: 24px;
     width: 112px;
     height: 48px;
-    cursor: pointer;
     background-color: #d3d6db;
+    font-size: smaller;
 }
 
-#maisprodutos:hover{
-    background-color: #9ba6a5;
-}
-
-#cadastro:hover{
+.botoesmenu:hover{
     background-color: #9ba6a5;
 }
 
@@ -52,7 +48,7 @@ body{
     height:40px;
 }
 
-.icones{
+.selecao{
     cursor: pointer;
 }
 
@@ -65,6 +61,15 @@ body{
 
 .lupa:hover{
     background-color: #d3d6db;
+}
+
+.iconesfundo{
+    width: auto;
+    height: 50px;
+}
+
+.iconesfundo:hover{
+    background-color: #9ba6a5;
 }
 
 .cativamensagem{
@@ -83,8 +88,47 @@ body{
     height: 120px;
     border-radius: 200px;
     margin-left: 500px;
+    font-size: large;
 }
 
 .botaocadastro:hover{
+    background-color: #9ba6a5;
+}
+
+.msgmaisvendidos{
+    padding-top: 96px;
+    padding-bottom: 32px;
+    font-family: Arial;
+    text-align: center;
+    font-size: 32px;
+}
+
+.imgmaisvendidos{
+    padding-left: 192px;
+    height: 150px;
+    width: auto;
+
+}
+
+.imgmaisvendidos img{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.botaomaisprodutos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 48px;
+    margin-left: 41%;
+    background-color: #d3d6db;
+    width: 200px;
+    height: 80px;
+    border-radius: 200px;
+    font-size: large;
+}
+
+.botaomaisprodutos:hover{
     background-color: #9ba6a5;
 }

@@ -1,35 +1,36 @@
-<html>
+
     <head>
         <meta charset="utf-8">
         <link rel="stylesheet" type="text/css" href="CSS/estilo_telaprincipal.css">
     </head>
     <body>
+        <title>Tibia Dracoins - Página Inicial</title>
         <div class="externa">
             <div class="interna">
                 <table>
                     <tr>
-                        <p class="slogan"> Derrote todos os dragões com os itens do Tibia Dracoins!</p>
+                        <h1 class="slogan"> Derrote todos os dragões com os itens do Tibia Dracoins!</h1>
                     </tr>
                     <tr>
                         <td>
                             <img src="CSS/tibiadracoins.png" width="250px" height="250px" />
                         </td>
                         <td>
-                            <div class="botoesmenu">
-                                <button type="button" id="maisprodutos">Mais produtos</button>
-                                <button type="button" id="cadastro">Cadastro</button>
+                            <div>
+                                <button type="button" id="maisprodutos" class="botoesmenu selecao">Mais produtos</button>
+                                <button type="button" id="cadastro" class="botoesmenu selecao">Cadastro</button>
                             </div>
                         </td>
                         <td>
                             <input type="text" class="estiloinput" placeholder="Digite aqui o que procura..." />
                         </td>
                         <td>
-                            <button type="button" class="lupa icones"></button>
+                            <button type="button" class="lupa selecao"></button>
                         </td>
                         <td>
-                            <div class="icones">
-                                <img src="CSS/icon_login.svg" id="iconelogin" width="50px" height="50px" />
-                                <img src="CSS/carrinho.svg" id="iconecarrinho" width="40px" height="40px" />
+                            <div>
+                                <img src="CSS/icon_login.svg" id="iconelogin" class="selecao iconesfundo"/>
+                                <img src="CSS/carrinho.svg" id="iconecarrinho" class="selecao iconesfundo"/>
                             </div>
                         </td>
                     </tr>
@@ -37,11 +38,22 @@
                 <table>
                     <tr>
                         <div class="cativamensagem">
-                            <p class="cativa">Conosco você terá todos os itens que sempre desejou, compre agora!! </p>
+                            <p>Conosco você terá todos os itens que sempre desejou, compre agora!! </p>
                         </div>
                     </tr>
                     <tr>
-                        <button type="button" id="cadastro" class="botaocadastro icones">Cadastre-se aqui agora!</button>
+                        <button type="button" id="cadastro1" class="botaocadastro icones">Cadastre-se aqui agora!</button>
+                    </tr>
+                    <tr>
+                        <h2 class="msgmaisvendidos"> Produtos mais vendidos</h2>
+                    </tr>
+                    <tr>
+                        <img src="CSS/draptor.png" class="imgmaisvendidos"/>
+                        <img src="CSS/livro.png" class="imgmaisvendidos"/>
+                        <img src="CSS/potion.png" class="imgmaisvendidos"/>
+                    </tr>
+                    <tr>
+                        <button type="button" id="vermaisprodutos" class="icones botaomaisprodutos">Ver mais produtos</button>
                     </tr>
                 </table>
             </div>
