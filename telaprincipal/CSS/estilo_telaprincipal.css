@@ -6,7 +6,7 @@ body{
 .externa{
     background-image: url("telaprincipal.jfif");
     background-repeat: repeat;
-    height:500%;
+    height:390%;
 }
 
 .interna{
@@ -96,8 +96,8 @@ body{
 }
 
 .msgmaisvendidos{
-    padding-top: 96px;
-    padding-bottom: 32px;
+    padding-top: 160px;
+    padding-bottom: 64px;
     font-family: Arial;
     text-align: center;
     font-size: 32px;
@@ -120,7 +120,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 48px;
+    margin-top: 96px;
     margin-left: 41%;
     background-color: #d3d6db;
     width: 200px;
@@ -131,4 +131,63 @@ body{
 
 .botaomaisprodutos:hover{
     background-color: #9ba6a5;
+}
+
+.msgvideo{
+    padding-top: 160px;
+    font-family: Arial;
+    text-align: center;
+    font-size: 32px;
+}
+
+.video{
+    padding-top: 64px;
+    margin: 0 auto;
+    display: flex;
+    align-content: center;
+    width:900px;
+    height: 538px;
+}
+
+.depoimentos{
+    padding-top: 96px;
+    padding-left: 64px;
+    font-family: Arial;
+    text-align: start;
+    font-size: 32px;
+}
+
+.nomesdepoimentos{
+    padding-left: 64px;
+    font-family: Arial;
+    text-align: start;
+    font-size: 16px;
+}
+
+
+.contato{
+    padding-left: 64px;
+    font-family: Arial;
+    text-align: start;
+    font-size: 32px;
+}
+
+.infcontato{
+    padding-left: 64px;
+    font-family: Arial;
+    text-align: start;
+    font-size: 16px;
+}
+
+.social{
+    padding-left: 64px;
+    font-family: Arial;
+    text-align: start;
+    font-size: 32px;
+}
+
+.botaosocial img{
+    padding-left: 64px;
+    width: 50px;
+
 }
