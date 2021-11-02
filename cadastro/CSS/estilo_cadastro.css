@@ -19,6 +19,10 @@ body {
     padding: 2%;
 }
 
+.estiloheader{
+    font-family: Arial;
+}
+
 .inputscadastro{
     position: relative;
     left: 30%;
