@@ -32,9 +32,24 @@ body {
     font-size: 18px;
 }
 
-.estilocadastro{
+.estilocadastropadrao{
+    height: 28px;
     size: 20px;
     border: 2px solid #132743;
+    border-radius: 8px;
+}
+
+.estilocadastroerro{
+    height: 28px;
+    size: 20px;
+    border: 2px solid #dc2f2f;
+    border-radius: 8px;
+}
+
+.estilocadastroacerto{
+    height: 28px;
+    size: 20px;
+    border: 2px solid #42b883;
     border-radius: 8px;
 }
 
@@ -55,7 +70,7 @@ body {
     border :2px solid #132743;
 }
 
-#cancelar:hover{
+#retornar:hover{
     background-color: #d63447;
 }
 
