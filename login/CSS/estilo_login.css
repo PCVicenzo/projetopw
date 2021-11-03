@@ -18,6 +18,10 @@ body {
     padding: 2%;
 }
 
+.estiloheader{
+    font-family: Arial;
+}
+
 .inputslogin{
     position: relative;
     top:45%;
@@ -26,12 +30,15 @@ body {
 }
 
 .estilologin{
+    height: 28px;
     size: 20px;
     border: 2px solid #132743;
     border-radius: 8px;
 }
 
 .estilobuttons{
+    height: 30px;
+    width: 80px;
     background-color: #dfd3c3;
     position:relative;
     top: 60%;
