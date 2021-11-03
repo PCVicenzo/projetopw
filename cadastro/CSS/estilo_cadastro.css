@@ -50,6 +50,8 @@ body {
 }
 
 .estilobuttons{
+    height: 25px;
+    width: 80px;
     border :2px solid #132743;
 }
 
