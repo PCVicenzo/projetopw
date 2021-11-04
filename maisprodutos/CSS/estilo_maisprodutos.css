@@ -6,7 +6,7 @@ body {
 .externa{
     background-image: url("tibiamoreprodutos.jpg");
     background-size: cover;
-    height:230%;
+    height:210%;
     top: 0px;
     bottom: 0px;
     left: 0px;
@@ -22,6 +22,7 @@ body {
 }
 
 .cards{
+    padding-left: 32px;
     background-color:white;
     width:340px;
     height: 400px;
@@ -46,7 +47,7 @@ body {
 #botaomais{
     font-size: 30px;
     background-color: #7dd87d;
-    width: 168px;
+    width: 50%;
     height: 10%;
     cursor: pointer;
 }
@@ -59,7 +60,7 @@ body {
 #botaomenos{
     font-size: 30px;
     background-color: #df3554;
-    width: 168px;
+    width: 50%;
     height: 10%;
     cursor: pointer;
 }
