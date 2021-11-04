@@ -39,7 +39,7 @@ function MontarCardProdutos(){
 
     var finalpagina = ""
     finalpagina += '<div class="saida">'
-    finalpagina += '<button type="button" id="voltarmenu"> Voltar </button>'
+    finalpagina += '<button type="button" id="voltarmenu" onclick="location.href=\'../index.html\'"> Voltar </button>'
     finalpagina += '<img src="CSS/dracoins.png" id="logofinal" />'
     finalpagina += '<button type="button" id="ircarrinho"> Carrinho </button>'
     finalpagina += '</div>'
