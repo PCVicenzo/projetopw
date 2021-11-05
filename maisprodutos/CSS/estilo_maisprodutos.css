@@ -6,29 +6,24 @@ body {
 .externa{
     background-image: url("tibiamoreprodutos.jpg");
     background-size: cover;
-    height:210%;
-    top: 0px;
-    bottom: 0px;
-    left: 0px;
-    right: 0px;
+    width: auto;
+    min-height:230%;
 }
 
 .interna{
     margin: 0 auto;
     width: 85%;
     height: 100%;
-    background-color: white;
     border-radius: 10px 10px 10px 10px;
 }
 
 .cards{
-    padding-left: 32px;
+    margin: 40px;
     background-color:white;
-    width:340px;
+    width: 340px;
     height: 400px;
     border-radius:10px;
     float: left;
-    margin: 20px;
 }
 
 .div-imagem img{
@@ -86,7 +81,7 @@ body {
 
 #logofinal{
     margin: 20px;
-    width: 150px;
+    width: 200px;
     height: 10%;
 }
 
@@ -100,7 +95,8 @@ body {
 }
 
 .saida > button{
-    height: 32px;
+    border-radius: 10px;
+    height: 40px;
     width: 15%;
     background-color: #c2cfd8;
     cursor: pointer;
