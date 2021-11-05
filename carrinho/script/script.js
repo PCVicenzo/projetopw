@@ -62,7 +62,7 @@ function volta(){
 function compra(){
     var caixa = JSON.parse(window.localStorage.getItem("carrinho"));
     if(caixa != null){
-        alert("Produtos comprados com sucesso!! :D, você pagou" + caixa[5] +"")
+        alert("Produtos comprados com sucesso!! :D")
     }
     else{
         alert("Sinto muito, o seu carrinho está vazio. Por favor, clique em Adicionar itens e confira nossos produtos! ")
