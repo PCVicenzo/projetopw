@@ -25,5 +25,76 @@ body {
 }
 
 .header{
+    padding-left: 64px;
     font-size: 50px;
+    font-family: Arial;
+}
+
+#tabelaCarrinho{
+    margin: 0 auto;
+}
+
+.tab{
+    background-color: lightblue;
+}
+
+#tabelaCarrinho img{
+    width: 90px;
+    height: auto;
+}
+
+#tabelaCarrinho h2{
+    font-size: 16px;
+}
+
+#divCarrinhoVazio h2{
+    font-family: Arial;
+    font-size: 20px;
+    text-align: center;
+}
+
+#divCarrinhoVazio img{  
+    width: 200px;
+    height: auto;
+}
+
+#divCarrinhoVazio button{
+    height: 50px;
+    width: 100%;
+    background-color: whitesmoke;
+}
+
+#divCarrinhoVazio button:hover{
+    cursor: pointer;
+    background-color: silver;
+}
+
+.carrinhovazio{
+    margin: 0 auto;
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.botoes{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.botoes button{
+    width: 120px;
+    height: 60px;
+    margin: 40px;
+    background-color: white;
+}
+
+#comprar:hover{
+    cursor: pointer;
+    background-color: #42b883;
+}
+
+#voltar:hover{
+    cursor: pointer;
+    background-color: red;
 }
