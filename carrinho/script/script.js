@@ -23,23 +23,23 @@ function MontarCarrinho(){
             conteudo = ""
             conteudo += '<tr>';
             conteudo += '<td>';
-            conteudo += '<img src="CSS/' + caixa[i][2] + '"/>';
+            conteudo += '<center> <img src="CSS/' + caixa[i][2] + '"/> </center>';
             conteudo += '</td>';
             conteudo += '<td>';
-            conteudo += caixa[i][1];
+            conteudo += '<center>'+caixa[i][1]+'</center>';
             conteudo += '</td>';
             conteudo += '<td>';
-            conteudo += caixa[i][4];
+            conteudo += '<center>'+caixa[i][4]+'</center>';
             conteudo += '</td>';
             conteudo += '<td>';
-            conteudo += caixa[i][5];
+            conteudo += '<center>'+caixa[i][5]+'</center>';
             conteudo += '</td>';
             conteudo += '<td>';
-            conteudo += caixa[i][5]*caixa[i][4];
+            conteudo += '<center>'+caixa[i][5]*caixa[i][4]+'</center>';
             conteudo += '</td>';
             conteudo += '</tr>';
+            document.getElementById("tabelaCarrinho").innerHTML += conteudo;
     }
-    document.getElementById("tabelaCarrinho").innerHTML += conteudo;
 }
 else{
     conteudo  = ""
@@ -62,7 +62,7 @@ function volta(){
 function compra(){
     var caixa = JSON.parse(window.localStorage.getItem("carrinho"));
     if(caixa != null){
-        alert("Produtos comprados com sucesso!! :D")
+        alert("Produtos comprados com sucesso!! :D, você pagou" + caixa[5] +"")
     }
     else{
         alert("Sinto muito, o seu carrinho está vazio. Por favor, clique em Adicionar itens e confira nossos produtos! ")
