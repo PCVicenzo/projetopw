@@ -36,6 +36,20 @@ body {
     border-radius: 8px;
 }
 
+.estilologinerro{
+    height: 28px;
+    size: 20px;
+    border: 2px solid #dc2f2f;
+    border-radius: 8px;
+}
+
+.estilologinacerto{
+    height: 28px;
+    size: 20px;
+    border: 2px solid #42b883;
+    border-radius: 8px;
+}
+
 .estilobuttons{
     height: 30px;
     width: 80px;
