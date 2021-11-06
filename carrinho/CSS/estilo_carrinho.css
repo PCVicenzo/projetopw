@@ -1,0 +1,125 @@
+body {
+    background-image: url("carrinho.jpg");
+	margin: 0;
+	padding: 0;
+}
+
+#externa{
+    height: 100%;
+    width: auto;
+}
+
+.cards{
+    border-radius: 10px 10px 10px 10px;
+    background-color: #ffc93c;
+    margin: 38px;
+    width: 300px;
+    height: 450px;
+    float: left;
+}
+
+.cardsvazio{
+    margin-top:24px;
+    margin-left: 64px;
+    border-radius: 10px 10px 10px 10px;
+    background-color: white;
+    width: 90%;
+    height: 450px;
+    float: left;
+}
+
+.imagem img{
+    border-radius: 10px 10px 0px 0px;
+    width: 100%;
+    height: 220px;
+}
+
+#cabeca{
+    text-align: center;
+}
+
+.detalhes{
+    font-size: 10px;
+    padding-left: 4px;
+    font-family: arial;
+}
+
+#det{
+    font-size: 12px;
+}
+
+.unidade{
+    padding-left: 4px;
+    font-family: arial;
+}
+
+.preco{
+    padding-left: 4px;
+    font-family: arial;
+}
+
+.total p{
+    font-size: 20px;
+}
+
+.valortotal{
+    background-color: #fdb44b;
+    font-size: 30px;
+}
+
+
+#voltar{
+    width: 1000px;
+    height: auto;
+}
+
+.mensagem p{
+    text-align: center;
+    font-family: arial;
+    font-size: 28px;
+}
+
+.sad img{
+    padding-top: 45px;
+    padding-left: 600px;
+    width: 150px;
+}
+
+.saida{
+    padding-top: 32px;
+    display: flex;
+    align-items: center;
+    width:100%;
+    justify-content: space-evenly;
+}
+
+#voltarmenu:hover{
+    background-color: #e84a5f;
+}
+
+#maisprodt{
+    margin-left: 570px;
+    border-radius: 10px;
+    height: 40px;
+    width: 15%;
+    background-color: #c2cfd8;
+    cursor: pointer;
+}
+
+#logofinal{
+    margin: 20px;
+    width: 200px;
+    height: 10%;
+}
+
+.saida > button{
+    border-radius: 10px;
+    height: 40px;
+    width: 15%;
+    background-color: #c2cfd8;
+    cursor: pointer;
+}
+
+#finalizacompra:hover{
+    background-color: #cbf078;
+}
