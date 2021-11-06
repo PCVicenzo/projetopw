@@ -16,10 +16,10 @@ function MontarCarrinho(){
         conteudo += '<img src="CSS/' + caixa[i][2] + '"/>';
         conteudo += '</div>';
         conteudo += '<div class="detalhes">';
-        conteudo += '<b><p>Produto '+caixa[i][1]+'</b></p>';
+        conteudo += '<b><p id="det">Produto Adicionado</p> <p>'+caixa[i][1]+'</b></p>';
         conteudo += '</div>';
         conteudo += '<div class="unidade">';
-        conteudo += '<b><p>Unidades: '+caixa[i][4]+'</b></p>';
+        conteudo += '<b><p>Unidades: '+caixa[i][4]+' Un.</b></p>';
         conteudo += '</div>';
         conteudo += '<div class="preco">';
         conteudo += '<b><p>Preço: R$ '+caixa[i][5]+'</b></p>';

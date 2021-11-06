@@ -39,13 +39,13 @@ body {
 }
 
 .detalhes{
-    font-size: 12px;
+    font-size: 10px;
     padding-left: 4px;
     font-family: arial;
 }
 
 #det{
-    font-size: 2px;
+    font-size: 12px;
 }
 
 .unidade{
@@ -63,6 +63,7 @@ body {
 }
 
 .valortotal{
+    background-color: #fdb44b;
     font-size: 30px;
 }
 
