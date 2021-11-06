@@ -29,8 +29,17 @@ function MontarCarrinho(){
         conteudo += '</div>'
         conteudo += '<div class="valortotal">';
         conteudo += '<center> R$ '+caixa[i][5]*caixa[i][4]+'</center>';
+        conteudo += '</div>'
+        conteudo += '</div>'
         document.getElementById("externa").innerHTML += conteudo;
         }
+        conteudo = ""
+        conteudo += '<div class="saida">'
+        conteudo += '<button type="button" id="voltarmenu" onclick="volta()"> Voltar </button>'
+        conteudo += '<img src="CSS/dracoins.png" id="logofinal" />'
+        conteudo += '<button type="button" id="finalizacompra" onclick="compra()"> Finalizar Compra</button>'
+        conteudo += '</div>'
+        document.getElementById("externa").innerHTML += conteudo;
     }
 
 else{
@@ -67,6 +76,8 @@ function compra(){
     var caixa = JSON.parse(window.localStorage.getItem("carrinho"));
     if(caixa != null){
         alert("Produtos comprados com sucesso!! :D")
+        localStorage.clear()
+        location.reload()
     }
     else{
         alert("Sinto muito, o seu carrinho está vazio. Por favor, clique em Adicionar itens e confira nossos produtos! ")
