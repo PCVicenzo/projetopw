@@ -1,0 +1,79 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.externa{
+    background-image: url("cadastrofundo.jpg");
+    background-size: cover;
+    height:100%;
+}
+
+.interna{
+    background-image: url("drac.png");
+    background-size:100%;
+    border-radius: 0px 10px 10px 10px;
+    height: 500px;
+    width: 500px;
+    margin: 0 auto;
+    padding: 2%;
+}
+
+.estiloheader{
+    font-family: Arial;
+}
+
+.inputscadastro{
+    position: relative;
+    left: 30%;
+    top: 19%;
+    width: 35%;
+    text-align: center;
+    font-size: 18px;
+}
+
+.estilocadastropadrao{
+    height: 28px;
+    size: 20px;
+    border: 2px solid #132743;
+    border-radius: 8px;
+}
+
+.estilocadastroerro{
+    height: 28px;
+    size: 20px;
+    border: 2px solid #dc2f2f;
+    border-radius: 8px;
+}
+
+.estilocadastroacerto{
+    height: 28px;
+    size: 20px;
+    border: 2px solid #42b883;
+    border-radius: 8px;
+}
+
+.buttonscadastro{
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    top: 22%;
+    left:30%;
+    width: 35%;
+    text-align: center;
+    font-size: 18px;
+}
+
+.estilobuttons{
+    height: 25px;
+    width: 80px;
+    border :2px solid #132743;
+}
+
+#retornar:hover{
+    background-color: #d63447;
+}
+
+#confirma:hover{
+    background-color: #7dd87d;
+}
