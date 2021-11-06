@@ -69,7 +69,7 @@ function retorno(){
 }
 
 function volta(){
-    window.location.href = "../telaprincipal/index.html";
+    window.location.href = "../index.html";
 }
 
 function compra(){
