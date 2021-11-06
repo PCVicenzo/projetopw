@@ -1,0 +1,196 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.externa{
+    background-image: url("telaprincipal.jfif");
+    background-repeat: repeat;
+    height:380%;
+}
+
+.interna{
+    background-color: white;
+    border-radius: 0px 0px 32px 32px;
+    height: 100%;
+    width: 1300px;
+    margin: 0 auto;
+}
+
+.slogan{
+    margin: 0;
+    background-color:lemonchiffon;
+    font-family: Arial;
+    padding-top: 64px;
+    padding-bottom: 64px;
+    text-align: center;
+    font-size: 32px;
+}
+
+.botoesmenu{
+    border-radius: 24px;
+    width: 112px;
+    height: 48px;
+    background-color: #d3d6db;
+    font-size: smaller;
+}
+
+.botoesmenu:hover{
+    background-color: #9ba6a5;
+}
+
+.estiloinput{
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    justify-content: space-evenly;
+    width: 630px;
+    height:40px;
+}
+
+.selecao{
+    cursor: pointer;
+}
+
+.lupa{
+    border-radius: 8px;
+    width:40px;
+    height:40px;
+    background-image: url("lupa.svg");
+}
+
+.lupa:hover{
+    background-color: #d3d6db;
+}
+
+.iconesfundo{
+    width: auto;
+    height: 50px;
+}
+
+.iconesfundo:hover{
+    background-color: #9ba6a5;
+}
+
+.cativamensagem{
+    border-radius: 56px;
+    margin: 16px;
+    padding: 8px;
+    background-color:orange;
+    font-family: Arial;
+    text-align: center;
+    font-size: 32px;
+}
+
+.botaocadastro{
+    background-color: #d3d6db;
+    width: 280px;
+    height: 120px;
+    border-radius: 200px;
+    margin-left: 500px;
+    font-size: large;
+}
+
+.botaocadastro:hover{
+    background-color: #9ba6a5;
+}
+
+.msgmaisvendidos{
+    padding-top: 160px;
+    padding-bottom: 64px;
+    font-family: Arial;
+    text-align: center;
+    font-size: 32px;
+}
+
+.imgmaisvendidos{
+    padding-left: 192px;
+    height: 150px;
+    width: auto;
+
+}
+
+.imgmaisvendidos img{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.botaomaisprodutos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 96px;
+    margin-left: 41%;
+    background-color: #d3d6db;
+    width: 200px;
+    height: 80px;
+    border-radius: 200px;
+    font-size: large;
+}
+
+.botaomaisprodutos:hover{
+    background-color: #9ba6a5;
+}
+
+.msgvideo{
+    padding-top: 160px;
+    font-family: Arial;
+    text-align: center;
+    font-size: 32px;
+}
+
+.video{
+    padding-top: 64px;
+    margin: 0 auto;
+    display: flex;
+    align-content: center;
+    width:900px;
+    height: 538px;
+}
+
+.depoimentos{
+    padding-top: 96px;
+    padding-left: 64px;
+    font-family: Arial;
+    text-align: start;
+    font-size: 32px;
+}
+
+.nomesdepoimentos{
+    padding-left: 64px;
+    font-family: Arial;
+    text-align: start;
+    font-size: 16px;
+}
+
+
+.contato{
+    padding-left: 64px;
+    font-family: Arial;
+    text-align: start;
+    font-size: 32px;
+}
+
+.infcontato{
+    padding-left: 64px;
+    font-family: Arial;
+    text-align: start;
+    font-size: 16px;
+}
+
+.social{
+    padding-left: 64px;
+    font-family: Arial;
+    text-align: start;
+    font-size: 32px;
+}
+
+.botaosocial img{
+    padding-left: 64px;
+    width: 50px;
+}
+
+.espaco{
+    padding-left: 200px;
+}
