@@ -13,7 +13,7 @@ body {
     border-radius: 10px 10px 10px 10px;
     background-color: #ffc93c;
     margin: 20px;
-    width: 250px;
+    width: 300px;
     height: 450px;
     float: left;
 }
@@ -39,8 +39,13 @@ body {
 }
 
 .detalhes{
+    font-size: 12px;
     padding-left: 4px;
     font-family: arial;
+}
+
+#det{
+    font-size: 2px;
 }
 
 .unidade{

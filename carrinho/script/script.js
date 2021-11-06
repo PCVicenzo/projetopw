@@ -12,23 +12,23 @@ function MontarCarrinho(){
         for(var i = 0; i < caixa.length; i++){
         var conteudo = ""
         conteudo += '<div class="cards">';
-        conteudo += '<div class="imagens">';
+        conteudo += '<div class="imagem">';
         conteudo += '<img src="CSS/' + caixa[i][2] + '"/>';
         conteudo += '</div>';
         conteudo += '<div class="detalhes">';
-        conteudo += '<b><p>Produto: '+caixa[i][1]+'</b></p>';
+        conteudo += '<b><p>Produto '+caixa[i][1]+'</b></p>';
         conteudo += '</div>';
         conteudo += '<div class="unidade">';
         conteudo += '<b><p>Unidades: '+caixa[i][4]+'</b></p>';
         conteudo += '</div>';
         conteudo += '<div class="preco">';
-        conteudo += '<b><p>Preço: R$'+caixa[i][5]+'</b></p>';
+        conteudo += '<b><p>Preço: R$ '+caixa[i][5]+'</b></p>';
         conteudo += '</div>';
         conteudo += '<div class="total">'
         conteudo += '<center><b><p>TOTAL</p></b></center>';
         conteudo += '</div>'
         conteudo += '<div class="valortotal">';
-        conteudo += '<center>'+caixa[i][5]*caixa[i][4]+'</center>';
+        conteudo += '<center> R$ '+caixa[i][5]*caixa[i][4]+'</center>';
         document.getElementById("externa").innerHTML += conteudo;
         }
     }
