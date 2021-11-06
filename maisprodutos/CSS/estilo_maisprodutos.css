@@ -1,13 +1,11 @@
 body {
+    background-image: url("tibiamoreprodutos.jpg");
 	margin: 0;
 	padding: 0;
 }
 
 .externa{
-    background-image: url("tibiamoreprodutos.jpg");
-    background-size: cover;
     width: auto;
-    min-height:230%;
 }
 
 .interna{
