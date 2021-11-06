@@ -1,101 +1,119 @@
 body {
+    background-image: url("carrinho.jpg");
 	margin: 0;
 	padding: 0;
 }
 
-.externa{
-    background-image: url("carrinho.jpg");
-    background-size: cover;
-    height:100%;
+#externa{
+    height: 100%;
+    width: 100%;
 }
 
-.interna{
-    background-color: #f1b963;
-    background-size:100%;
+.cards{
     border-radius: 10px 10px 10px 10px;
-    height: 90%;
-    width: 70%;
-    margin: 0 auto;
-    padding: 2%;
+    background-color: #ffc93c;
+    margin: 20px;
+    width: 250px;
+    height: 450px;
+    float: left;
 }
 
-.divCarrinho img{
-    width: 200px;
-    height: 200px;
+.cardsvazio{
+    margin-top:24px;
+    margin-left: 64px;
+    border-radius: 10px 10px 10px 10px;
+    background-color: white;
+    width: 90%;
+    height: 450px;
+    float: left;
 }
 
-.header{
-    padding-left: 64px;
-    font-size: 50px;
-    font-family: Arial;
+.imagem img{
+    border-radius: 10px 10px 0px 0px;
+    width: 100%;
+    height: 220px;
 }
 
-#tabelaCarrinho{
-    margin: 0 auto;
-}
-
-.tab{
-    background-color: lightblue;
-}
-
-#tabelaCarrinho img{
-    width: 90px;
-    height: auto;
-}
-
-#tabelaCarrinho h2{
-    font-size: 16px;
-}
-
-#divCarrinhoVazio h2{
-    font-family: Arial;
-    font-size: 20px;
+#cabeca{
     text-align: center;
 }
 
-#divCarrinhoVazio img{  
-    width: 200px;
+.detalhes{
+    padding-left: 4px;
+    font-family: arial;
+}
+
+.unidade{
+    padding-left: 4px;
+    font-family: arial;
+}
+
+.preco{
+    padding-left: 4px;
+    font-family: arial;
+}
+
+.total p{
+    font-size: 20px;
+}
+
+.valortotal{
+    font-size: 30px;
+}
+
+
+#voltar{
+    width: 1000px;
     height: auto;
 }
 
-#divCarrinhoVazio button{
-    height: 50px;
-    width: 100%;
-    background-color: whitesmoke;
+.mensagem p{
+    text-align: center;
+    font-family: arial;
+    font-size: 28px;
 }
 
-#divCarrinhoVazio button:hover{
-    cursor: pointer;
-    background-color: silver;
+.sad img{
+    padding-top: 45px;
+    padding-left: 600px;
+    width: 150px;
 }
 
-.carrinhovazio{
-    margin: 0 auto;
-    max-width: 200px;
-    display: flex;
-    flex-direction: column;
-}
-
-.botoes{
+.saida{
+    padding-top: 32px;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    width:100%;
+    justify-content: space-evenly;
 }
 
-.botoes button{
-    border-radius: 20px;
-    width: 120px;
-    height: 60px;
-    margin: 40px;
-    background-color: white;
+#voltarmenu:hover{
+    background-color: #e84a5f;
 }
 
-#comprar:hover{
+#maisprodt{
+    margin-left: 570px;
+    border-radius: 10px;
+    height: 40px;
+    width: 15%;
+    background-color: #c2cfd8;
     cursor: pointer;
-    background-color: #42b883;
 }
 
-#voltar:hover{
+#logofinal{
+    margin: 20px;
+    width: 200px;
+    height: 10%;
+}
+
+.saida > button{
+    border-radius: 10px;
+    height: 40px;
+    width: 15%;
+    background-color: #c2cfd8;
     cursor: pointer;
-    background-color: red;
+}
+
+#finalizacompra:hover{
+    background-color: #cbf078;
 }
