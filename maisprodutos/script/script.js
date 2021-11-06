@@ -41,7 +41,7 @@ function MontarCardProdutos(){
     finalpagina += '<div class="saida">'
     finalpagina += '<button type="button" id="voltarmenu" onclick="location.href=\'../index.html\'"> Voltar </button>'
     finalpagina += '<img src="CSS/dracoins.png" id="logofinal" />'
-    finalpagina += '<button type="button" id="ircarrinho"> Carrinho </button>'
+    finalpagina += '<button type="button" id="ircarrinho" onclick="location.href=\'../carrinho/index.html\'"> Carrinho </button>'
     finalpagina += '</div>'
     document.getElementById("divProdutos").innerHTML += finalpagina;
 }
