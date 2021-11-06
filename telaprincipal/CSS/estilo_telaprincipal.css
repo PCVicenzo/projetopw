@@ -6,7 +6,7 @@ body{
 .externa{
     background-image: url("telaprincipal.jfif");
     background-repeat: repeat;
-    height:390%;
+    height:380%;
 }
 
 .interna{
@@ -189,5 +189,8 @@ body{
 .botaosocial img{
     padding-left: 64px;
     width: 50px;
+}
 
+.espaco{
+    padding-left: 200px;
 }
