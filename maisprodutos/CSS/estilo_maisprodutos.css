@@ -10,16 +10,16 @@ body {
 
 .interna{
     margin: 0 auto;
-    width: 85%;
-    height: 100%;
+    width: 100%;
+    height: auto;
     border-radius: 10px 10px 10px 10px;
 }
 
 .cards{
-    margin: 40px;
+    margin: 5%;
     background-color:white;
-    width: 340px;
-    height: 400px;
+    width: 23%;
+    height: 60%;
     border-radius:10px;
     float: left;
 }

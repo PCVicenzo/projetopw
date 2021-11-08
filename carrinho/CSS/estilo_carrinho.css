@@ -5,8 +5,8 @@ body {
 }
 
 #externa{
-    height: 100%;
-    width: auto;
+    height: auto;
+    width: 100%;
 }
 
 .cards{
@@ -19,8 +19,8 @@ body {
 }
 
 .cardsvazio{
-    margin-top:24px;
-    margin-left: 64px;
+    margin-left: 5%;
+    margin-top:24px;;
     border-radius: 10px 10px 10px 10px;
     background-color: white;
     width: 90%;
@@ -81,8 +81,13 @@ body {
 
 .sad img{
     padding-top: 45px;
-    padding-left: 600px;
     width: 150px;
+} 
+
+.sad{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .saida{
@@ -98,7 +103,7 @@ body {
 }
 
 #maisprodt{
-    margin-left: 570px;
+    margin-left: 42%;
     border-radius: 10px;
     height: 40px;
     width: 15%;
