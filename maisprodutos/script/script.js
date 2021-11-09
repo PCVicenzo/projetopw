@@ -63,7 +63,7 @@ function menos(id){
 }
 
 function comprar(id){
-    listaProdutos
+    alert('Adicionado com sucesso!')
     carrinho.push(listaProdutos[id])
     window.localStorage.setItem("carrinho", JSON.stringify(carrinho))
     MontarCardProdutos();
